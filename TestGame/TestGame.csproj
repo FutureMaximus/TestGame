@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>TestGame</AssemblyTitle>
+    <Description>Your first game!</Description>
+    <Product>TestGame</Product>
+    <Copyright>Copyright © Your Name Here 2022</Copyright>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FreneticUtilities">
+      <HintPath>.\FreneticUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="FGECore">
+      <HintPath>..\..\FreneticGameEngine\FGECore\bin\Release\net7.0\FGECore.dll</HintPath>
+    </Reference>
+    <Reference Include="FGEGraphics">
+      <HintPath>..\..\FreneticGameEngine\FGEGraphics\bin\Release\net7.0\FGEGraphics.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ4">
+      <HintPath>..\..\FreneticGameEngine\FGECore\bin\Release\net7.0\LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Audio.OpenAL">
+      <HintPath>.\OpenTK.Audio.OpenAL.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Core">
+      <HintPath>.\OpenTK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Graphics">
+      <HintPath>.\OpenTK.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Input">
+      <HintPath>.\OpenTK.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Mathematics">
+      <HintPath>.\OpenTK.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Windowing.Common">
+      <HintPath>.\OpenTK.Windowing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Windowing.Desktop">
+      <HintPath>.\OpenTK.Windowing.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Windowing.GraphicsLibraryFramework">
+      <HintPath>.\OpenTK.Windowing.GraphicsLibraryFramework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="OpenTK" Version="4.7.7" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.2" />
+    <PackageReference Include="TextCopy" Version="6.2.1" />
+  </ItemGroup>
+</Project>
